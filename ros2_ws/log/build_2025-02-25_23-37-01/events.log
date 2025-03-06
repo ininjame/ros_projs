@@ -1,0 +1,110 @@
+[0.000000] (-) TimerEvent: {}
+[0.000725] (-) JobUnselected: {'identifier': 'cpp_srvccli'}
+[0.000765] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000793] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000819] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces')])}
+[0.000834] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.099991] (-) TimerEvent: {}
+[0.187878] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.188792] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.189521] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ininjame/ros2_projs/ros2_ws/build/cpp_pubsub', '--', '-j16', '-l16'], 'cwd': '/home/ininjame/ros2_projs/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ininjame'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/ininjame'), ('OLDPWD', '/home/ininjame/ros2_projs/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ininjame/ros2_projs/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ininjame'), ('NAME', 'MSI'), ('WSL_INTEROP', '/run/WSL/6768_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Users/vuanh/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/vuanh/AppData/Local/Microsoft/WindowsApps:/mnt/c/Programs/Microsoft VS Code/bin:/mnt/c/Users/vuanh/AppData/Local/Programs/Python/Python312/Scripts:/snap/bin'), ('WT_SESSION', '8cde9b84-1fb7-416f-9c2a-8708e6c706fd'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces:/home/ininjame/ros2_projs/ros2_ws/install/py_pubsub:/home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli:/home/ininjame/ros2_projs/ros2_ws/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ininjame/ros2_projs/ros2_ws/build/cpp_pubsub'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/ininjame/ros2_projs/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces:/home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli:/home/ininjame/ros2_projs/ros2_ws/install/cpp_pubsub:/home/ininjame/ros2_projs/ros2_ws/install/py_pubsub:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.200090] (-) TimerEvent: {}
+[0.300675] (-) TimerEvent: {}
+[0.309134] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[0.309531] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.327458] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.327592] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.400875] (-) TimerEvent: {}
+[0.501232] (-) TimerEvent: {}
+[0.601583] (-) TimerEvent: {}
+[0.702011] (-) TimerEvent: {}
+[0.802356] (-) TimerEvent: {}
+[0.902777] (-) TimerEvent: {}
+[1.003613] (-) TimerEvent: {}
+[1.104313] (-) TimerEvent: {}
+[1.204841] (-) TimerEvent: {}
+[1.305255] (-) TimerEvent: {}
+[1.405701] (-) TimerEvent: {}
+[1.506114] (-) TimerEvent: {}
+[1.606665] (-) TimerEvent: {}
+[1.707074] (-) TimerEvent: {}
+[1.807541] (-) TimerEvent: {}
+[1.907966] (-) TimerEvent: {}
+[2.008432] (-) TimerEvent: {}
+[2.109146] (-) TimerEvent: {}
+[2.209681] (-) TimerEvent: {}
+[2.310076] (-) TimerEvent: {}
+[2.410464] (-) TimerEvent: {}
+[2.510828] (-) TimerEvent: {}
+[2.611239] (-) TimerEvent: {}
+[2.711652] (-) TimerEvent: {}
+[2.812136] (-) TimerEvent: {}
+[2.912621] (-) TimerEvent: {}
+[3.013102] (-) TimerEvent: {}
+[3.113611] (-) TimerEvent: {}
+[3.214344] (-) TimerEvent: {}
+[3.314799] (-) TimerEvent: {}
+[3.415331] (-) TimerEvent: {}
+[3.515718] (-) TimerEvent: {}
+[3.616085] (-) TimerEvent: {}
+[3.716454] (-) TimerEvent: {}
+[3.780456] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[3.816593] (-) TimerEvent: {}
+[3.916891] (-) TimerEvent: {}
+[4.017235] (-) TimerEvent: {}
+[4.116086] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[4.117386] (-) TimerEvent: {}
+[4.217812] (-) TimerEvent: {}
+[4.318179] (-) TimerEvent: {}
+[4.418613] (-) TimerEvent: {}
+[4.519019] (-) TimerEvent: {}
+[4.619472] (-) TimerEvent: {}
+[4.719807] (-) TimerEvent: {}
+[4.820294] (-) TimerEvent: {}
+[4.920803] (-) TimerEvent: {}
+[5.021341] (-) TimerEvent: {}
+[5.121724] (-) TimerEvent: {}
+[5.222081] (-) TimerEvent: {}
+[5.322518] (-) TimerEvent: {}
+[5.422883] (-) TimerEvent: {}
+[5.523331] (-) TimerEvent: {}
+[5.623867] (-) TimerEvent: {}
+[5.724185] (-) TimerEvent: {}
+[5.824529] (-) TimerEvent: {}
+[5.925020] (-) TimerEvent: {}
+[6.025392] (-) TimerEvent: {}
+[6.125790] (-) TimerEvent: {}
+[6.226434] (-) TimerEvent: {}
+[6.326875] (-) TimerEvent: {}
+[6.338634] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[6.427122] (-) TimerEvent: {}
+[6.527809] (-) TimerEvent: {}
+[6.628239] (-) TimerEvent: {}
+[6.719179] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[6.728458] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[6.729129] (-) TimerEvent: {}
+[6.747087] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[6.752566] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ininjame/ros2_projs/ros2_ws/build/cpp_pubsub'], 'cwd': '/home/ininjame/ros2_projs/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ininjame'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/ininjame'), ('OLDPWD', '/home/ininjame/ros2_projs/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ininjame/ros2_projs/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ininjame'), ('NAME', 'MSI'), ('WSL_INTEROP', '/run/WSL/6768_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Users/vuanh/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/vuanh/AppData/Local/Microsoft/WindowsApps:/mnt/c/Programs/Microsoft VS Code/bin:/mnt/c/Users/vuanh/AppData/Local/Programs/Python/Python312/Scripts:/snap/bin'), ('WT_SESSION', '8cde9b84-1fb7-416f-9c2a-8708e6c706fd'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces:/home/ininjame/ros2_projs/ros2_ws/install/py_pubsub:/home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli:/home/ininjame/ros2_projs/ros2_ws/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ininjame/ros2_projs/ros2_ws/build/cpp_pubsub'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/ininjame/ros2_projs/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces:/home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli:/home/ininjame/ros2_projs/ros2_ws/install/cpp_pubsub:/home/ininjame/ros2_projs/ros2_ws/install/py_pubsub:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[6.757066] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.758411] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[6.759427] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/ininjame/ros2_projs/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[6.760130] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[6.762295] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/ininjame/ros2_projs/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""\n'}
+[6.762364] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[6.762658] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[6.763006] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[6.763141] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[6.763387] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[6.763529] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[6.763673] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[6.763816] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[6.763856] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[6.763885] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[6.764138] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[6.764336] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[6.764476] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[6.764523] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[6.764553] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[6.765855] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[6.796933] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[6.798175] (-) EventReactorShutdown: {}

@@ -1,0 +1,17 @@
+/home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/lib/cpp_srvccli/server
+/home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/lib/cpp_srvccli/client
+/home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/ament_index/resource_index/package_run_dependencies/cpp_srvccli
+/home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/ament_index/resource_index/parent_prefix_path/cpp_srvccli
+/home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/cpp_srvccli/environment/ament_prefix_path.sh
+/home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/cpp_srvccli/environment/ament_prefix_path.dsv
+/home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/cpp_srvccli/environment/path.sh
+/home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/cpp_srvccli/environment/path.dsv
+/home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/cpp_srvccli/local_setup.bash
+/home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/cpp_srvccli/local_setup.sh
+/home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/cpp_srvccli/local_setup.zsh
+/home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/cpp_srvccli/local_setup.dsv
+/home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/cpp_srvccli/package.dsv
+/home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/ament_index/resource_index/packages/cpp_srvccli
+/home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/cpp_srvccli/cmake/cpp_srvccliConfig.cmake
+/home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/cpp_srvccli/cmake/cpp_srvccliConfig-version.cmake
+/home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/cpp_srvccli/package.xml

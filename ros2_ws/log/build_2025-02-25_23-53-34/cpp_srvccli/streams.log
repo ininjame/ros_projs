@@ -1,0 +1,29 @@
+[0.233s] Invoking command in '/home/ininjame/ros2_projs/ros2_ws/build/cpp_srvccli': AMENT_PREFIX_PATH=/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces:/home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli:/home/ininjame/ros2_projs/ros2_ws/install/cpp_pubsub:/home/ininjame/ros2_projs/ros2_ws/install/py_pubsub:/opt/ros/humble LD_LIBRARY_PATH=/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ininjame/ros2_projs/ros2_ws/build/cpp_srvccli -- -j16 -l16
+[0.328s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.328s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.338s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[0.338s] [ 75%] Built target server
+[3.206s] [100%] [32m[1mLinking CXX executable client[0m
+[3.500s] [100%] Built target client
+[3.505s] Invoked command in '/home/ininjame/ros2_projs/ros2_ws/build/cpp_srvccli' returned '0': AMENT_PREFIX_PATH=/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces:/home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli:/home/ininjame/ros2_projs/ros2_ws/install/cpp_pubsub:/home/ininjame/ros2_projs/ros2_ws/install/py_pubsub:/opt/ros/humble LD_LIBRARY_PATH=/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ininjame/ros2_projs/ros2_ws/build/cpp_srvccli -- -j16 -l16
+[3.525s] Invoking command in '/home/ininjame/ros2_projs/ros2_ws/build/cpp_srvccli': AMENT_PREFIX_PATH=/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces:/home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli:/home/ininjame/ros2_projs/ros2_ws/install/cpp_pubsub:/home/ininjame/ros2_projs/ros2_ws/install/py_pubsub:/opt/ros/humble LD_LIBRARY_PATH=/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ininjame/ros2_projs/ros2_ws/build/cpp_srvccli
+[3.529s] -- Install configuration: ""
+[3.530s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/lib/cpp_srvccli/server
+[3.530s] -- Installing: /home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/lib/cpp_srvccli/client
+[3.530s] -- Set runtime path of "/home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/lib/cpp_srvccli/client" to ""
+[3.531s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/ament_index/resource_index/package_run_dependencies/cpp_srvccli
+[3.531s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/ament_index/resource_index/parent_prefix_path/cpp_srvccli
+[3.531s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/cpp_srvccli/environment/ament_prefix_path.sh
+[3.531s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/cpp_srvccli/environment/ament_prefix_path.dsv
+[3.531s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/cpp_srvccli/environment/path.sh
+[3.531s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/cpp_srvccli/environment/path.dsv
+[3.531s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/cpp_srvccli/local_setup.bash
+[3.531s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/cpp_srvccli/local_setup.sh
+[3.531s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/cpp_srvccli/local_setup.zsh
+[3.531s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/cpp_srvccli/local_setup.dsv
+[3.531s] -- Installing: /home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/cpp_srvccli/package.dsv
+[3.531s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/ament_index/resource_index/packages/cpp_srvccli
+[3.531s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/cpp_srvccli/cmake/cpp_srvccliConfig.cmake
+[3.531s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/cpp_srvccli/cmake/cpp_srvccliConfig-version.cmake
+[3.531s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/cpp_srvccli/package.xml
+[3.532s] Invoked command in '/home/ininjame/ros2_projs/ros2_ws/build/cpp_srvccli' returned '0': AMENT_PREFIX_PATH=/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces:/home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli:/home/ininjame/ros2_projs/ros2_ws/install/cpp_pubsub:/home/ininjame/ros2_projs/ros2_ws/install/py_pubsub:/opt/ros/humble LD_LIBRARY_PATH=/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ininjame/ros2_projs/ros2_ws/build/cpp_srvccli

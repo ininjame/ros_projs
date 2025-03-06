@@ -1,0 +1,28 @@
+[0.144s] Invoking command in '/home/ininjame/ros2_projs/ros2_ws/build/cpp_srvccli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ininjame/ros2_projs/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/ininjame/ros2_projs/ros2_ws/build/cpp_srvccli -- -j16 -l16
+[0.228s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.237s] [ 50%] Built target server
+[0.238s] [ 75%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[3.004s] [100%] [32m[1mLinking CXX executable client[0m
+[3.251s] [100%] Built target client
+[3.258s] Invoked command in '/home/ininjame/ros2_projs/ros2_ws/build/cpp_srvccli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ininjame/ros2_projs/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/ininjame/ros2_projs/ros2_ws/build/cpp_srvccli -- -j16 -l16
+[3.277s] Invoking command in '/home/ininjame/ros2_projs/ros2_ws/build/cpp_srvccli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ininjame/ros2_projs/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/ininjame/ros2_projs/ros2_ws/build/cpp_srvccli
+[3.281s] -- Install configuration: ""
+[3.282s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/lib/cpp_srvccli/server
+[3.283s] -- Installing: /home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/lib/cpp_srvccli/client
+[3.283s] -- Set runtime path of "/home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/lib/cpp_srvccli/client" to ""
+[3.283s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/ament_index/resource_index/package_run_dependencies/cpp_srvccli
+[3.283s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/ament_index/resource_index/parent_prefix_path/cpp_srvccli
+[3.284s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/cpp_srvccli/environment/ament_prefix_path.sh
+[3.284s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/cpp_srvccli/environment/ament_prefix_path.dsv
+[3.284s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/cpp_srvccli/environment/path.sh
+[3.284s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/cpp_srvccli/environment/path.dsv
+[3.284s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/cpp_srvccli/local_setup.bash
+[3.284s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/cpp_srvccli/local_setup.sh
+[3.284s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/cpp_srvccli/local_setup.zsh
+[3.284s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/cpp_srvccli/local_setup.dsv
+[3.284s] -- Installing: /home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/cpp_srvccli/package.dsv
+[3.284s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/ament_index/resource_index/packages/cpp_srvccli
+[3.285s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/cpp_srvccli/cmake/cpp_srvccliConfig.cmake
+[3.285s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/cpp_srvccli/cmake/cpp_srvccliConfig-version.cmake
+[3.285s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli/share/cpp_srvccli/package.xml
+[3.285s] Invoked command in '/home/ininjame/ros2_projs/ros2_ws/build/cpp_srvccli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ininjame/ros2_projs/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/ininjame/ros2_projs/ros2_ws/build/cpp_srvccli
