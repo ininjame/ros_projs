@@ -1,0 +1,10 @@
+/home/ininjame/ros2_projs/ros2_ws/build/turtle_pubsub/CMakeFiles/uninstall.dir
+/home/ininjame/ros2_projs/ros2_ws/build/turtle_pubsub/CMakeFiles/turtle_pubsub_uninstall.dir
+/home/ininjame/ros2_projs/ros2_ws/build/turtle_pubsub/CMakeFiles/talker.dir
+/home/ininjame/ros2_projs/ros2_ws/build/turtle_pubsub/CMakeFiles/test.dir
+/home/ininjame/ros2_projs/ros2_ws/build/turtle_pubsub/CMakeFiles/edit_cache.dir
+/home/ininjame/ros2_projs/ros2_ws/build/turtle_pubsub/CMakeFiles/rebuild_cache.dir
+/home/ininjame/ros2_projs/ros2_ws/build/turtle_pubsub/CMakeFiles/list_install_components.dir
+/home/ininjame/ros2_projs/ros2_ws/build/turtle_pubsub/CMakeFiles/install.dir
+/home/ininjame/ros2_projs/ros2_ws/build/turtle_pubsub/CMakeFiles/install/local.dir
+/home/ininjame/ros2_projs/ros2_ws/build/turtle_pubsub/CMakeFiles/install/strip.dir

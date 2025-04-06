@@ -1,0 +1,214 @@
+[0.000000] (-) TimerEvent: {}
+[0.000562] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.000669] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000695] (-) JobUnselected: {'identifier': 'cpp_srvccli'}
+[0.000712] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.000729] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.000745] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000762] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000785] (turtle_pubsub) JobQueued: {'identifier': 'turtle_pubsub', 'dependencies': OrderedDict()}
+[0.000809] (turtle_pubsub) JobStarted: {'identifier': 'turtle_pubsub'}
+[0.005430] (turtle_pubsub) JobProgress: {'identifier': 'turtle_pubsub', 'progress': 'cmake'}
+[0.005873] (turtle_pubsub) JobProgress: {'identifier': 'turtle_pubsub', 'progress': 'build'}
+[0.006337] (turtle_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ininjame/ros2_projs/ros2_ws/build/turtle_pubsub', '--', '-j16', '-l16'], 'cwd': '/home/ininjame/ros2_projs/ros2_ws/build/turtle_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ininjame'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('HOME', '/home/ininjame'), ('OLDPWD', '/home/ininjame/ros2_projs/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ininjame'), ('NAME', 'MSI'), ('WSL_INTEROP', '/run/WSL/820_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Users/vuanh/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/vuanh/AppData/Local/Microsoft/WindowsApps:/mnt/c/Programs/Microsoft VS Code/bin:/mnt/c/Users/vuanh/AppData/Local/Programs/Python/Python312/Scripts:/snap/bin'), ('WT_SESSION', '56c73e9c-aed9-49d1-b6de-790689ccaef6'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ininjame/ros2_projs/ros2_ws/build/turtle_pubsub'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.029451] (turtle_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.037996] (turtle_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/turtle_publisher.cpp.o\x1b[0m\n'}
+[0.099092] (-) TimerEvent: {}
+[0.199455] (-) TimerEvent: {}
+[0.299775] (-) TimerEvent: {}
+[0.400033] (-) TimerEvent: {}
+[0.500307] (-) TimerEvent: {}
+[0.600601] (-) TimerEvent: {}
+[0.700882] (-) TimerEvent: {}
+[0.801180] (-) TimerEvent: {}
+[0.901582] (-) TimerEvent: {}
+[1.001913] (-) TimerEvent: {}
+[1.102193] (-) TimerEvent: {}
+[1.202482] (-) TimerEvent: {}
+[1.302778] (-) TimerEvent: {}
+[1.403119] (-) TimerEvent: {}
+[1.500276] (turtle_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:39:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.500436] (turtle_pubsub) StderrLine: {'line': b'   39 |                 \x1b[01;31m\x1b[Krclcpp\x1b[m\x1b[K:Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_;\n'}
+[1.500511] (turtle_pubsub) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.500687] (turtle_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTurtlePublisher::TurtlePublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.500733] (turtle_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:15:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[KTurtlePublisher\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[Kcount_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.500763] (turtle_pubsub) StderrLine: {'line': b'   15 |                 TurtlePublisher() : Node("turtle_publisher"), \x1b[01;31m\x1b[Kcount_\x1b[m\x1b[K(0) {\n'}
+[1.500792] (turtle_pubsub) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.503132] (-) TimerEvent: {}
+[1.504605] (turtle_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:16:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.504701] (turtle_pubsub) StderrLine: {'line': b'   16 |                         \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<geometry_msgs::msg::Twist>("vel_msg", 10);\n'}
+[1.504735] (turtle_pubsub) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.504764] (turtle_pubsub) StderrLine: {'line': b'      |                         \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[1.514072] (turtle_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.514307] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.514399] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.514484] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.514565] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.514648] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.514730] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.514813] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.514894] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.514976] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.515060] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.515142] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:6\x1b[m\x1b[K:\n'}
+[1.515225] (turtle_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TurtlePublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.515308] (turtle_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:32:73:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_x_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.515393] (turtle_pubsub) StderrLine: {'line': b'   32 |                                                                         \x1b[01;35m\x1b[K"Publishing: \'linear  x: %d, y: %d, z: %d\', \'angular: x: %d, y: %d, z: %d\'"\x1b[m\x1b[K,\n'}
+[1.515477] (turtle_pubsub) StderrLine: {'line': b'      |                                                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.515732] (turtle_pubsub) StderrLine: {'line': b'   33 |                                                                         \x1b[32m\x1b[Kmessage.linear.x\x1b[m\x1b[K, message.linear.y, message.linear.z,\n'}
+[1.515774] (turtle_pubsub) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[K~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.515802] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                        \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[1.515828] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                        \x1b[32m\x1b[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_x_type {aka double}\x1b[m\x1b[K\n'}
+[1.515858] (turtle_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:32:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[1.515885] (turtle_pubsub) StderrLine: {'line': b'   32 |                                                               "Publishing: \'linear  x: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K, y: %d, z: %d\', \'angular: x: %d, y: %d, z: %d\'",\n'}
+[1.515911] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                        \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[1.515936] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                         \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[1.515961] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                         \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[1.515987] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                        \x1b[32m\x1b[K%f\x1b[m\x1b[K\n'}
+[1.516014] (turtle_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.516040] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.516065] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.516091] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.516116] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.516142] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.516169] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.516194] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.516219] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.516246] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.516271] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.516297] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:6\x1b[m\x1b[K:\n'}
+[1.516323] (turtle_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:32:73:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_y_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.516354] (turtle_pubsub) StderrLine: {'line': b'   32 |                                                                         \x1b[01;35m\x1b[K"Publishing: \'linear  x: %d, y: %d, z: %d\', \'angular: x: %d, y: %d, z: %d\'"\x1b[m\x1b[K,\n'}
+[1.516382] (turtle_pubsub) StderrLine: {'line': b'      |                                                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.516409] (turtle_pubsub) StderrLine: {'line': b'   33 |                                                                         message.linear.x, \x1b[32m\x1b[Kmessage.linear.y\x1b[m\x1b[K, message.linear.z,\n'}
+[1.516437] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                           \x1b[32m\x1b[K~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.516464] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                                          \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[1.516491] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                                          \x1b[32m\x1b[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_y_type {aka double}\x1b[m\x1b[K\n'}
+[1.516520] (turtle_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:32:106:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[1.516545] (turtle_pubsub) StderrLine: {'line': b'   32 |                                                        "Publishing: \'linear  x: %d, y: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K, z: %d\', \'angular: x: %d, y: %d, z: %d\'",\n'}
+[1.516570] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                        \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[1.516594] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                         \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[1.516618] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                         \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[1.516643] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                        \x1b[32m\x1b[K%f\x1b[m\x1b[K\n'}
+[1.516669] (turtle_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.516780] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.516811] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.516838] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.516862] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.516886] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.516909] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.516932] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.516954] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.516976] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.516998] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.517025] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:6\x1b[m\x1b[K:\n'}
+[1.517047] (turtle_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:32:73:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 7 has type \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_z_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.517073] (turtle_pubsub) StderrLine: {'line': b'   32 |                                                                         \x1b[01;35m\x1b[K"Publishing: \'linear  x: %d, y: %d, z: %d\', \'angular: x: %d, y: %d, z: %d\'"\x1b[m\x1b[K,\n'}
+[1.517097] (turtle_pubsub) StderrLine: {'line': b'      |                                                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.517119] (turtle_pubsub) StderrLine: {'line': b'   33 |                                                                         message.linear.x, message.linear.y, \x1b[32m\x1b[Kmessage.linear.z\x1b[m\x1b[K,\n'}
+[1.517143] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                                             \x1b[32m\x1b[K~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.517164] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                                                            \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[1.517186] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                                                            \x1b[32m\x1b[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_z_type {aka double}\x1b[m\x1b[K\n'}
+[1.517209] (turtle_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:32:113:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[1.517231] (turtle_pubsub) StderrLine: {'line': b'   32 |                                                 "Publishing: \'linear  x: %d, y: %d, z: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K\', \'angular: x: %d, y: %d, z: %d\'",\n'}
+[1.517254] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                        \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[1.517277] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                         \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[1.517298] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                         \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[1.517320] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                        \x1b[32m\x1b[K%f\x1b[m\x1b[K\n'}
+[1.517341] (turtle_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.517363] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.517384] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.517405] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.517448] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.517477] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.517503] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.517528] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.517552] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.517576] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.517598] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.517621] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:6\x1b[m\x1b[K:\n'}
+[1.517643] (turtle_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:32:73:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 8 has type \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_x_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.517669] (turtle_pubsub) StderrLine: {'line': b'   32 |                                                                         \x1b[01;35m\x1b[K"Publishing: \'linear  x: %d, y: %d, z: %d\', \'angular: x: %d, y: %d, z: %d\'"\x1b[m\x1b[K,\n'}
+[1.517692] (turtle_pubsub) StderrLine: {'line': b'      |                                                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.517715] (turtle_pubsub) StderrLine: {'line': b'   33 |                                                                         message.linear.x, message.linear.y, message.linear.z,\n'}
+[1.517736] (turtle_pubsub) StderrLine: {'line': b'   34 |                                                                         \x1b[32m\x1b[Kmessage.angular.x\x1b[m\x1b[K, message.angular.y, message.angular.z\n'}
+[1.517759] (turtle_pubsub) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.517780] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                         \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[1.517801] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                         \x1b[32m\x1b[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_x_type {aka double}\x1b[m\x1b[K\n'}
+[1.517823] (turtle_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:32:131:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[1.517845] (turtle_pubsub) StderrLine: {'line': b'   32 |                               "Publishing: \'linear  x: %d, y: %d, z: %d\', \'angular: x: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K, y: %d, z: %d\'",\n'}
+[1.517867] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                        \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[1.517890] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                         \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[1.517912] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                         \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[1.517933] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                        \x1b[32m\x1b[K%f\x1b[m\x1b[K\n'}
+[1.517957] (turtle_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.517979] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.517999] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.518020] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.518042] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.518062] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.518083] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.518104] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.518125] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.518147] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.518168] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.518189] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:6\x1b[m\x1b[K:\n'}
+[1.518210] (turtle_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:32:73:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 9 has type \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_y_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.518240] (turtle_pubsub) StderrLine: {'line': b'   32 |                                                                         \x1b[01;35m\x1b[K"Publishing: \'linear  x: %d, y: %d, z: %d\', \'angular: x: %d, y: %d, z: %d\'"\x1b[m\x1b[K,\n'}
+[1.518263] (turtle_pubsub) StderrLine: {'line': b'      |                                                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.518285] (turtle_pubsub) StderrLine: {'line': b'   33 |                                                                         message.linear.x, message.linear.y, message.linear.z,\n'}
+[1.518307] (turtle_pubsub) StderrLine: {'line': b'   34 |                                                                         message.angular.x, \x1b[32m\x1b[Kmessage.angular.y\x1b[m\x1b[K, message.angular.z\n'}
+[1.518329] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                            \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.518351] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                                            \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[1.518373] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                                            \x1b[32m\x1b[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_y_type {aka double}\x1b[m\x1b[K\n'}
+[1.518395] (turtle_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:32:138:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[1.518417] (turtle_pubsub) StderrLine: {'line': b'   32 |                        "Publishing: \'linear  x: %d, y: %d, z: %d\', \'angular: x: %d, y: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K, z: %d\'",\n'}
+[1.518438] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                        \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[1.518460] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                         \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[1.518481] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                         \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[1.518503] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                        \x1b[32m\x1b[K%f\x1b[m\x1b[K\n'}
+[1.518524] (turtle_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.518546] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.518567] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.518589] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.518611] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.518634] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.518659] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.518681] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.518704] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.518728] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.518750] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.518836] (turtle_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:6\x1b[m\x1b[K:\n'}
+[1.518915] (turtle_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:32:73:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 10 has type \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_z_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.518998] (turtle_pubsub) StderrLine: {'line': b'   32 |                                                                         \x1b[01;35m\x1b[K"Publishing: \'linear  x: %d, y: %d, z: %d\', \'angular: x: %d, y: %d, z: %d\'"\x1b[m\x1b[K,\n'}
+[1.519077] (turtle_pubsub) StderrLine: {'line': b'      |                                                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.519157] (turtle_pubsub) StderrLine: {'line': b'   33 |                                                                         message.linear.x, message.linear.y, message.linear.z,\n'}
+[1.519237] (turtle_pubsub) StderrLine: {'line': b'   34 |                                                                         message.angular.x, message.angular.y, \x1b[32m\x1b[Kmessage.angular.z\x1b[m\x1b[K\n'}
+[1.519315] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                                               \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.519400] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                                                               \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[1.519479] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                                                               \x1b[32m\x1b[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_z_type {aka double}\x1b[m\x1b[K\n'}
+[1.519558] (turtle_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:32:145:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[1.519636] (turtle_pubsub) StderrLine: {'line': b'   32 |                        "Publishing: \'linear  x: %d, y: %d, z: %d\', \'angular: x: %d, y: %d, z: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K\'",\n'}
+[1.519715] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                               \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[1.519793] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                                \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[1.519872] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                                \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[1.519950] (turtle_pubsub) StderrLine: {'line': b'      |                                                                                               \x1b[32m\x1b[K%f\x1b[m\x1b[K\n'}
+[1.520101] (turtle_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:36:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.520155] (turtle_pubsub) StderrLine: {'line': b'   36 |                          \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K->publish(message);\n'}
+[1.520183] (turtle_pubsub) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.520208] (turtle_pubsub) StderrLine: {'line': b'      |                          \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[1.521553] (turtle_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.521598] (turtle_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:45:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kshutdonw\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kshutdown\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.521634] (turtle_pubsub) StderrLine: {'line': b'   45 |         rclcpp::\x1b[01;31m\x1b[Kshutdonw\x1b[m\x1b[K();\n'}
+[1.521662] (turtle_pubsub) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.521689] (turtle_pubsub) StderrLine: {'line': b'      |                 \x1b[32m\x1b[Kshutdown\x1b[m\x1b[K\n'}
+[1.603205] (-) TimerEvent: {}
+[1.703487] (-) TimerEvent: {}
+[1.803847] (-) TimerEvent: {}
+[1.904199] (-) TimerEvent: {}
+[1.978064] (turtle_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/turtle_publisher.cpp.o] Error 1\n'}
+[1.978325] (turtle_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2\n'}
+[1.978392] (turtle_pubsub) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[1.981010] (turtle_pubsub) CommandEnded: {'returncode': 2}
+[1.986258] (turtle_pubsub) JobEnded: {'identifier': 'turtle_pubsub', 'rc': 2}
+[1.996854] (-) EventReactorShutdown: {}

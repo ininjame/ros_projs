@@ -1,0 +1,181 @@
+[0.008s] Invoking command in '/home/ininjame/ros2_projs/ros2_ws/build/turtle_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ininjame/ros2_projs/ros2_ws/build/turtle_pubsub -- -j16 -l16
+[0.029s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.037s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/turtle_publisher.cpp.o[0m
+[1.500s] [01m[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:39:17:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+[1.500s]    39 |                 [01;31m[Krclcpp[m[K:Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_;
+[1.500s]       |                 [01;31m[K^~~~~~[m[K
+[1.500s] [01m[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:[m[K In constructor ‘[01m[KTurtlePublisher::TurtlePublisher()[m[K’:
+[1.500s] [01m[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:15:63:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KTurtlePublisher[m[K’ does not have any field named ‘[01m[Kcount_[m[K’
+[1.500s]    15 |                 TurtlePublisher() : Node("turtle_publisher"), [01;31m[Kcount_[m[K(0) {
+[1.500s]       |                                                               [01;31m[K^~~~~~[m[K
+[1.504s] [01m[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:16:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.504s]    16 |                         [01;31m[Kpublisher_[m[K = this->create_publisher<geometry_msgs::msg::Twist>("vel_msg", 10);
+[1.504s]       |                         [01;31m[K^~~~~~~~~~[m[K
+[1.504s]       |                         [32m[Krmw_publisher_t[m[K
+[1.513s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.514s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.514s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.514s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.514s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.514s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.514s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.514s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.514s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.514s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.514s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.514s]                  from [01m[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:6[m[K:
+[1.514s] [01m[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:[m[K In member function ‘[01m[Kvoid TurtlePublisher::timer_callback()[m[K’:
+[1.515s] [01m[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:32:73:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.515s]    32 |                                                                         [01;35m[K"Publishing: 'linear  x: %d, y: %d, z: %d', 'angular: x: %d, y: %d, z: %d'"[m[K,
+[1.515s]       |                                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.515s]    33 |                                                                         [32m[Kmessage.linear.x[m[K, message.linear.y, message.linear.z,
+[1.515s]       |                                                                         [32m[K~~~~~~~~~~~~~~~~[m[K
+[1.515s]       |                                                                                        [32m[K|[m[K
+[1.515s]       |                                                                                        [32m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_x_type {aka double}[m[K
+[1.515s] [01m[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:32:99:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.515s]    32 |                                                               "Publishing: 'linear  x: [01;36m[K%d[m[K, y: %d, z: %d', 'angular: x: %d, y: %d, z: %d'",
+[1.515s]       |                                                                                        [01;36m[K~^[m[K
+[1.515s]       |                                                                                         [01;36m[K|[m[K
+[1.515s]       |                                                                                         [01;36m[Kint[m[K
+[1.515s]       |                                                                                        [32m[K%f[m[K
+[1.515s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.515s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.515s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.515s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.515s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.515s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.515s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.515s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.515s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.515s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.515s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.516s]                  from [01m[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:6[m[K:
+[1.516s] [01m[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:32:73:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_y_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.516s]    32 |                                                                         [01;35m[K"Publishing: 'linear  x: %d, y: %d, z: %d', 'angular: x: %d, y: %d, z: %d'"[m[K,
+[1.516s]       |                                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.516s]    33 |                                                                         message.linear.x, [32m[Kmessage.linear.y[m[K, message.linear.z,
+[1.516s]       |                                                                                           [32m[K~~~~~~~~~~~~~~~~[m[K
+[1.516s]       |                                                                                                          [32m[K|[m[K
+[1.516s]       |                                                                                                          [32m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_y_type {aka double}[m[K
+[1.516s] [01m[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:32:106:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.516s]    32 |                                                        "Publishing: 'linear  x: %d, y: [01;36m[K%d[m[K, z: %d', 'angular: x: %d, y: %d, z: %d'",
+[1.516s]       |                                                                                        [01;36m[K~^[m[K
+[1.516s]       |                                                                                         [01;36m[K|[m[K
+[1.516s]       |                                                                                         [01;36m[Kint[m[K
+[1.516s]       |                                                                                        [32m[K%f[m[K
+[1.516s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.516s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.516s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.516s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.516s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.516s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.516s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.516s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.516s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.516s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.516s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.516s]                  from [01m[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:6[m[K:
+[1.516s] [01m[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:32:73:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_z_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.516s]    32 |                                                                         [01;35m[K"Publishing: 'linear  x: %d, y: %d, z: %d', 'angular: x: %d, y: %d, z: %d'"[m[K,
+[1.516s]       |                                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.516s]    33 |                                                                         message.linear.x, message.linear.y, [32m[Kmessage.linear.z[m[K,
+[1.516s]       |                                                                                                             [32m[K~~~~~~~~~~~~~~~~[m[K
+[1.516s]       |                                                                                                                            [32m[K|[m[K
+[1.516s]       |                                                                                                                            [32m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_z_type {aka double}[m[K
+[1.516s] [01m[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:32:113:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.516s]    32 |                                                 "Publishing: 'linear  x: %d, y: %d, z: [01;36m[K%d[m[K', 'angular: x: %d, y: %d, z: %d'",
+[1.516s]       |                                                                                        [01;36m[K~^[m[K
+[1.516s]       |                                                                                         [01;36m[K|[m[K
+[1.517s]       |                                                                                         [01;36m[Kint[m[K
+[1.517s]       |                                                                                        [32m[K%f[m[K
+[1.517s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.517s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.517s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.517s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.517s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.517s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.517s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.517s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.517s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.517s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.517s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.517s]                  from [01m[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:6[m[K:
+[1.517s] [01m[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:32:73:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.517s]    32 |                                                                         [01;35m[K"Publishing: 'linear  x: %d, y: %d, z: %d', 'angular: x: %d, y: %d, z: %d'"[m[K,
+[1.517s]       |                                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.517s]    33 |                                                                         message.linear.x, message.linear.y, message.linear.z,
+[1.517s]    34 |                                                                         [32m[Kmessage.angular.x[m[K, message.angular.y, message.angular.z
+[1.517s]       |                                                                         [32m[K~~~~~~~~~~~~~~~~~[m[K
+[1.517s]       |                                                                                         [32m[K|[m[K
+[1.517s]       |                                                                                         [32m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_x_type {aka double}[m[K
+[1.517s] [01m[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:32:131:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.517s]    32 |                               "Publishing: 'linear  x: %d, y: %d, z: %d', 'angular: x: [01;36m[K%d[m[K, y: %d, z: %d'",
+[1.517s]       |                                                                                        [01;36m[K~^[m[K
+[1.517s]       |                                                                                         [01;36m[K|[m[K
+[1.517s]       |                                                                                         [01;36m[Kint[m[K
+[1.517s]       |                                                                                        [32m[K%f[m[K
+[1.517s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.517s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.517s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.517s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.517s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.517s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.517s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.517s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.517s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.517s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.517s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.517s]                  from [01m[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:6[m[K:
+[1.517s] [01m[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:32:73:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 9 has type ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_y_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.517s]    32 |                                                                         [01;35m[K"Publishing: 'linear  x: %d, y: %d, z: %d', 'angular: x: %d, y: %d, z: %d'"[m[K,
+[1.517s]       |                                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.517s]    33 |                                                                         message.linear.x, message.linear.y, message.linear.z,
+[1.518s]    34 |                                                                         message.angular.x, [32m[Kmessage.angular.y[m[K, message.angular.z
+[1.518s]       |                                                                                            [32m[K~~~~~~~~~~~~~~~~~[m[K
+[1.518s]       |                                                                                                            [32m[K|[m[K
+[1.518s]       |                                                                                                            [32m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_y_type {aka double}[m[K
+[1.518s] [01m[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:32:138:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.518s]    32 |                        "Publishing: 'linear  x: %d, y: %d, z: %d', 'angular: x: %d, y: [01;36m[K%d[m[K, z: %d'",
+[1.518s]       |                                                                                        [01;36m[K~^[m[K
+[1.518s]       |                                                                                         [01;36m[K|[m[K
+[1.518s]       |                                                                                         [01;36m[Kint[m[K
+[1.518s]       |                                                                                        [32m[K%f[m[K
+[1.518s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.518s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.518s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.518s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.518s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.518s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.518s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.518s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.518s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.518s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.518s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.518s]                  from [01m[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:6[m[K:
+[1.518s] [01m[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:32:73:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 10 has type ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_z_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.518s]    32 |                                                                         [01;35m[K"Publishing: 'linear  x: %d, y: %d, z: %d', 'angular: x: %d, y: %d, z: %d'"[m[K,
+[1.518s]       |                                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.518s]    33 |                                                                         message.linear.x, message.linear.y, message.linear.z,
+[1.518s]    34 |                                                                         message.angular.x, message.angular.y, [32m[Kmessage.angular.z[m[K
+[1.519s]       |                                                                                                               [32m[K~~~~~~~~~~~~~~~~~[m[K
+[1.519s]       |                                                                                                                               [32m[K|[m[K
+[1.519s]       |                                                                                                                               [32m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_z_type {aka double}[m[K
+[1.519s] [01m[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:32:145:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.519s]    32 |                        "Publishing: 'linear  x: %d, y: %d, z: %d', 'angular: x: %d, y: %d, z: [01;36m[K%d[m[K'",
+[1.519s]       |                                                                                               [01;36m[K~^[m[K
+[1.519s]       |                                                                                                [01;36m[K|[m[K
+[1.519s]       |                                                                                                [01;36m[Kint[m[K
+[1.519s]       |                                                                                               [32m[K%f[m[K
+[1.519s] [01m[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:36:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.519s]    36 |                          [01;31m[Kpublisher_[m[K->publish(message);
+[1.519s]       |                          [01;31m[K^~~~~~~~~~[m[K
+[1.519s]       |                          [32m[Krmw_publisher_t[m[K
+[1.521s] [01m[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.521s] [01m[K/home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub/src/turtle_publisher.cpp:45:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kshutdonw[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[Kshutdown[m[K’?
+[1.521s]    45 |         rclcpp::[01;31m[Kshutdonw[m[K();
+[1.521s]       |                 [01;31m[K^~~~~~~~[m[K
+[1.521s]       |                 [32m[Kshutdown[m[K
+[1.977s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/turtle_publisher.cpp.o] Error 1
+[1.978s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2
+[1.978s] gmake: *** [Makefile:146: all] Error 2
+[1.980s] Invoked command in '/home/ininjame/ros2_projs/ros2_ws/build/turtle_pubsub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ininjame/ros2_projs/ros2_ws/build/turtle_pubsub -- -j16 -l16

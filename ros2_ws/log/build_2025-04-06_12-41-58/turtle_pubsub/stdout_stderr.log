@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/turtle_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable talker[0m
+[100%] Built target talker
+-- Install configuration: ""
+-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/lib/turtle_pubsub/talker
+-- Set runtime path of "/home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/lib/turtle_pubsub/talker" to ""
+-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/ament_index/resource_index/package_run_dependencies/turtle_pubsub
+-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/ament_index/resource_index/parent_prefix_path/turtle_pubsub
+-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/turtle_pubsub/environment/ament_prefix_path.sh
+-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/turtle_pubsub/environment/ament_prefix_path.dsv
+-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/turtle_pubsub/environment/path.sh
+-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/turtle_pubsub/environment/path.dsv
+-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/turtle_pubsub/local_setup.bash
+-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/turtle_pubsub/local_setup.sh
+-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/turtle_pubsub/local_setup.zsh
+-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/turtle_pubsub/local_setup.dsv
+-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/turtle_pubsub/package.dsv
+-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/ament_index/resource_index/packages/turtle_pubsub
+-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/turtle_pubsub/cmake/turtle_pubsubConfig.cmake
+-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/turtle_pubsub/cmake/turtle_pubsubConfig-version.cmake
+-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/turtle_pubsub/package.xml

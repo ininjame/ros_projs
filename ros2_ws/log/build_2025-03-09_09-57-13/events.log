@@ -1,0 +1,253 @@
+[0.000000] (-) TimerEvent: {}
+[0.000857] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.000882] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000892] (-) JobUnselected: {'identifier': 'cpp_srvccli'}
+[0.000901] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000909] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000920] (polygon_base) JobQueued: {'identifier': 'polygon_base', 'dependencies': OrderedDict()}
+[0.000958] (polygon_plugins) JobQueued: {'identifier': 'polygon_plugins', 'dependencies': OrderedDict([('polygon_base', '/home/ininjame/ros2_projs/ros2_ws/install/polygon_base')])}
+[0.000973] (polygon_base) JobStarted: {'identifier': 'polygon_base'}
+[0.008913] (polygon_base) JobProgress: {'identifier': 'polygon_base', 'progress': 'cmake'}
+[0.009186] (polygon_base) Command: {'cmd': ['/usr/bin/cmake', '/home/ininjame/ros2_projs/ros2_ws/src/polygon_base', '-DCMAKE_INSTALL_PREFIX=/home/ininjame/ros2_projs/ros2_ws/install/polygon_base'], 'cwd': '/home/ininjame/ros2_projs/ros2_ws/build/polygon_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ininjame'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('HOME', '/home/ininjame'), ('OLDPWD', '/home/ininjame/ros2_projs/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ininjame/ros2_projs/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ininjame'), ('NAME', 'MSI'), ('WSL_INTEROP', '/run/WSL/1874_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Users/vuanh/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/vuanh/AppData/Local/Microsoft/WindowsApps:/mnt/c/Programs/Microsoft VS Code/bin:/mnt/c/Users/vuanh/AppData/Local/Programs/Python/Python312/Scripts:/snap/bin'), ('WT_SESSION', '4b1b94f6-1293-4572-8ffa-6cd19bd037a3'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli:/home/ininjame/ros2_projs/ros2_ws/install/cpp_pubsub:/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces:/home/ininjame/ros2_projs/ros2_ws/install/py_pubsub:/home/ininjame/ros2_projs/ros2_ws/install/cpp_parameters:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ininjame/ros2_projs/ros2_ws/build/polygon_base'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/ininjame/ros2_projs/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli:/home/ininjame/ros2_projs/ros2_ws/install/cpp_pubsub:/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces:/home/ininjame/ros2_projs/ros2_ws/install/cpp_parameters:/home/ininjame/ros2_projs/ros2_ws/install/py_pubsub:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.099709] (-) TimerEvent: {}
+[0.200045] (-) TimerEvent: {}
+[0.255212] (polygon_base) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.300148] (-) TimerEvent: {}
+[0.400600] (-) TimerEvent: {}
+[0.501441] (-) TimerEvent: {}
+[0.601866] (-) TimerEvent: {}
+[0.702802] (-) TimerEvent: {}
+[0.803739] (-) TimerEvent: {}
+[0.904441] (-) TimerEvent: {}
+[1.004857] (-) TimerEvent: {}
+[1.105441] (-) TimerEvent: {}
+[1.206102] (-) TimerEvent: {}
+[1.287559] (polygon_base) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.306292] (-) TimerEvent: {}
+[1.406830] (-) TimerEvent: {}
+[1.507585] (-) TimerEvent: {}
+[1.607999] (-) TimerEvent: {}
+[1.708467] (-) TimerEvent: {}
+[1.800597] (polygon_base) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.808609] (-) TimerEvent: {}
+[1.908919] (-) TimerEvent: {}
+[2.009313] (-) TimerEvent: {}
+[2.109817] (-) TimerEvent: {}
+[2.211190] (-) TimerEvent: {}
+[2.269865] (polygon_base) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.273658] (polygon_base) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.279384] (polygon_base) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.279714] (polygon_base) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.282519] (polygon_base) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.311197] (-) TimerEvent: {}
+[2.411641] (-) TimerEvent: {}
+[2.460350] (polygon_base) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.464451] (polygon_base) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.464644] (polygon_base) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.464788] (polygon_base) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.476880] (polygon_base) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.511703] (-) TimerEvent: {}
+[2.572327] (polygon_base) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.611763] (-) TimerEvent: {}
+[2.645315] (polygon_base) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[2.711866] (-) TimerEvent: {}
+[2.812155] (-) TimerEvent: {}
+[2.912730] (-) TimerEvent: {}
+[3.013798] (-) TimerEvent: {}
+[3.114193] (-) TimerEvent: {}
+[3.215015] (-) TimerEvent: {}
+[3.315829] (-) TimerEvent: {}
+[3.416939] (-) TimerEvent: {}
+[3.518102] (-) TimerEvent: {}
+[3.618713] (-) TimerEvent: {}
+[3.719564] (-) TimerEvent: {}
+[3.820060] (-) TimerEvent: {}
+[3.920367] (-) TimerEvent: {}
+[4.020784] (-) TimerEvent: {}
+[4.121140] (-) TimerEvent: {}
+[4.221670] (-) TimerEvent: {}
+[4.322503] (-) TimerEvent: {}
+[4.423014] (-) TimerEvent: {}
+[4.523506] (-) TimerEvent: {}
+[4.624592] (-) TimerEvent: {}
+[4.725397] (-) TimerEvent: {}
+[4.825781] (-) TimerEvent: {}
+[4.926367] (-) TimerEvent: {}
+[5.027093] (-) TimerEvent: {}
+[5.127691] (-) TimerEvent: {}
+[5.228530] (-) TimerEvent: {}
+[5.329100] (-) TimerEvent: {}
+[5.429450] (-) TimerEvent: {}
+[5.530179] (-) TimerEvent: {}
+[5.631669] (-) TimerEvent: {}
+[5.732308] (-) TimerEvent: {}
+[5.747258] (polygon_base) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.807532] (polygon_base) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.807664] (polygon_base) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ininjame/ros2_projs/ros2_ws/src/polygon_base/include>\n'}
+[5.807698] (polygon_base) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.808316] (polygon_base) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.809296] (polygon_base) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.809358] (polygon_base) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.809931] (polygon_base) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.812227] (polygon_base) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.817152] (polygon_base) StdoutLine: {'line': b'-- Generating done\n'}
+[5.817955] (polygon_base) StdoutLine: {'line': b'-- Build files have been written to: /home/ininjame/ros2_projs/ros2_ws/build/polygon_base\n'}
+[5.823166] (polygon_base) CommandEnded: {'returncode': 0}
+[5.824354] (polygon_base) JobProgress: {'identifier': 'polygon_base', 'progress': 'build'}
+[5.824388] (polygon_base) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ininjame/ros2_projs/ros2_ws/build/polygon_base', '--', '-j16', '-l16'], 'cwd': '/home/ininjame/ros2_projs/ros2_ws/build/polygon_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ininjame'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('HOME', '/home/ininjame'), ('OLDPWD', '/home/ininjame/ros2_projs/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ininjame/ros2_projs/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ininjame'), ('NAME', 'MSI'), ('WSL_INTEROP', '/run/WSL/1874_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Users/vuanh/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/vuanh/AppData/Local/Microsoft/WindowsApps:/mnt/c/Programs/Microsoft VS Code/bin:/mnt/c/Users/vuanh/AppData/Local/Programs/Python/Python312/Scripts:/snap/bin'), ('WT_SESSION', '4b1b94f6-1293-4572-8ffa-6cd19bd037a3'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli:/home/ininjame/ros2_projs/ros2_ws/install/cpp_pubsub:/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces:/home/ininjame/ros2_projs/ros2_ws/install/py_pubsub:/home/ininjame/ros2_projs/ros2_ws/install/cpp_parameters:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ininjame/ros2_projs/ros2_ws/build/polygon_base'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/ininjame/ros2_projs/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli:/home/ininjame/ros2_projs/ros2_ws/install/cpp_pubsub:/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces:/home/ininjame/ros2_projs/ros2_ws/install/cpp_parameters:/home/ininjame/ros2_projs/ros2_ws/install/py_pubsub:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[5.832400] (-) TimerEvent: {}
+[5.850211] (polygon_base) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/area_node.dir/src/area_node.cpp.o\x1b[0m\n'}
+[5.932511] (-) TimerEvent: {}
+[6.032761] (-) TimerEvent: {}
+[6.133006] (-) TimerEvent: {}
+[6.233339] (-) TimerEvent: {}
+[6.333613] (-) TimerEvent: {}
+[6.433910] (-) TimerEvent: {}
+[6.534311] (-) TimerEvent: {}
+[6.634767] (-) TimerEvent: {}
+[6.735108] (-) TimerEvent: {}
+[6.835397] (-) TimerEvent: {}
+[6.935667] (-) TimerEvent: {}
+[7.035960] (-) TimerEvent: {}
+[7.136206] (-) TimerEvent: {}
+[7.236549] (-) TimerEvent: {}
+[7.336843] (-) TimerEvent: {}
+[7.437097] (-) TimerEvent: {}
+[7.537455] (-) TimerEvent: {}
+[7.637746] (-) TimerEvent: {}
+[7.738016] (-) TimerEvent: {}
+[7.838280] (-) TimerEvent: {}
+[7.869207] (polygon_base) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable area_node\x1b[0m\n'}
+[7.938411] (-) TimerEvent: {}
+[8.038782] (-) TimerEvent: {}
+[8.089136] (polygon_base) StdoutLine: {'line': b'[100%] Built target area_node\n'}
+[8.094660] (polygon_base) CommandEnded: {'returncode': 0}
+[8.106697] (polygon_base) JobProgress: {'identifier': 'polygon_base', 'progress': 'install'}
+[8.110335] (polygon_base) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ininjame/ros2_projs/ros2_ws/build/polygon_base'], 'cwd': '/home/ininjame/ros2_projs/ros2_ws/build/polygon_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ininjame'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('HOME', '/home/ininjame'), ('OLDPWD', '/home/ininjame/ros2_projs/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ininjame/ros2_projs/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ininjame'), ('NAME', 'MSI'), ('WSL_INTEROP', '/run/WSL/1874_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Users/vuanh/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/vuanh/AppData/Local/Microsoft/WindowsApps:/mnt/c/Programs/Microsoft VS Code/bin:/mnt/c/Users/vuanh/AppData/Local/Programs/Python/Python312/Scripts:/snap/bin'), ('WT_SESSION', '4b1b94f6-1293-4572-8ffa-6cd19bd037a3'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli:/home/ininjame/ros2_projs/ros2_ws/install/cpp_pubsub:/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces:/home/ininjame/ros2_projs/ros2_ws/install/py_pubsub:/home/ininjame/ros2_projs/ros2_ws/install/cpp_parameters:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ininjame/ros2_projs/ros2_ws/build/polygon_base'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/ininjame/ros2_projs/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli:/home/ininjame/ros2_projs/ros2_ws/install/cpp_pubsub:/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces:/home/ininjame/ros2_projs/ros2_ws/install/cpp_parameters:/home/ininjame/ros2_projs/ros2_ws/install/py_pubsub:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[8.114176] (polygon_base) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.114342] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/include\n'}
+[8.114438] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/include/polygon_base\n'}
+[8.114503] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/include/polygon_base/regular_polygon.hpp\n'}
+[8.114888] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/lib/polygon_base/area_node\n'}
+[8.115518] (polygon_base) StdoutLine: {'line': b'-- Set runtime path of "/home/ininjame/ros2_projs/ros2_ws/install/polygon_base/lib/polygon_base/area_node" to ""\n'}
+[8.115712] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/share/ament_index/resource_index/package_run_dependencies/polygon_base\n'}
+[8.115888] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/share/ament_index/resource_index/parent_prefix_path/polygon_base\n'}
+[8.116088] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.sh\n'}
+[8.116194] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.dsv\n'}
+[8.116523] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/share/polygon_base/environment/path.sh\n'}
+[8.116629] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/share/polygon_base/environment/path.dsv\n'}
+[8.116694] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/share/polygon_base/local_setup.bash\n'}
+[8.116775] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/share/polygon_base/local_setup.sh\n'}
+[8.116927] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/share/polygon_base/local_setup.zsh\n'}
+[8.117001] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/share/polygon_base/local_setup.dsv\n'}
+[8.117083] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/share/polygon_base/package.dsv\n'}
+[8.117227] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/share/ament_index/resource_index/packages/polygon_base\n'}
+[8.117387] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/share/polygon_base/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.117734] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig.cmake\n'}
+[8.117931] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig-version.cmake\n'}
+[8.118181] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/share/polygon_base/package.xml\n'}
+[8.118856] (polygon_base) CommandEnded: {'returncode': 0}
+[8.138906] (-) TimerEvent: {}
+[8.151010] (polygon_base) JobEnded: {'identifier': 'polygon_base', 'rc': 0}
+[8.151444] (polygon_plugins) JobStarted: {'identifier': 'polygon_plugins'}
+[8.188216] (polygon_plugins) JobProgress: {'identifier': 'polygon_plugins', 'progress': 'cmake'}
+[8.188909] (polygon_plugins) Command: {'cmd': ['/usr/bin/cmake', '/home/ininjame/ros2_projs/ros2_ws/src/polygon_plugins', '-DCMAKE_INSTALL_PREFIX=/home/ininjame/ros2_projs/ros2_ws/install/polygon_plugins'], 'cwd': '/home/ininjame/ros2_projs/ros2_ws/build/polygon_plugins', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ininjame'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('HOME', '/home/ininjame'), ('OLDPWD', '/home/ininjame/ros2_projs/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ininjame/ros2_projs/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ininjame'), ('NAME', 'MSI'), ('WSL_INTEROP', '/run/WSL/1874_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Users/vuanh/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/vuanh/AppData/Local/Microsoft/WindowsApps:/mnt/c/Programs/Microsoft VS Code/bin:/mnt/c/Users/vuanh/AppData/Local/Programs/Python/Python312/Scripts:/snap/bin'), ('WT_SESSION', '4b1b94f6-1293-4572-8ffa-6cd19bd037a3'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/ininjame/ros2_projs/ros2_ws/install/polygon_base:/home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli:/home/ininjame/ros2_projs/ros2_ws/install/cpp_pubsub:/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces:/home/ininjame/ros2_projs/ros2_ws/install/py_pubsub:/home/ininjame/ros2_projs/ros2_ws/install/cpp_parameters:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ininjame/ros2_projs/ros2_ws/build/polygon_plugins'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/ininjame/ros2_projs/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ininjame/ros2_projs/ros2_ws/install/polygon_base:/home/ininjame/ros2_projs/ros2_ws/install/cpp_srvccli:/home/ininjame/ros2_projs/ros2_ws/install/cpp_pubsub:/home/ininjame/ros2_projs/ros2_ws/install/tutorial_interfaces:/home/ininjame/ros2_projs/ros2_ws/install/cpp_parameters:/home/ininjame/ros2_projs/ros2_ws/install/py_pubsub:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[8.239080] (-) TimerEvent: {}
+[8.275524] (polygon_plugins) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[8.339205] (-) TimerEvent: {}
+[8.439645] (-) TimerEvent: {}
+[8.540186] (-) TimerEvent: {}
+[8.640793] (-) TimerEvent: {}
+[8.741642] (-) TimerEvent: {}
+[8.842694] (-) TimerEvent: {}
+[8.943629] (-) TimerEvent: {}
+[9.044215] (-) TimerEvent: {}
+[9.144890] (-) TimerEvent: {}
+[9.245846] (-) TimerEvent: {}
+[9.335733] (polygon_plugins) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[9.346022] (-) TimerEvent: {}
+[9.446479] (-) TimerEvent: {}
+[9.547155] (-) TimerEvent: {}
+[9.647816] (-) TimerEvent: {}
+[9.748785] (-) TimerEvent: {}
+[9.849731] (-) TimerEvent: {}
+[9.950322] (-) TimerEvent: {}
+[10.050640] (-) TimerEvent: {}
+[10.086861] (polygon_plugins) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[10.150899] (-) TimerEvent: {}
+[10.251895] (-) TimerEvent: {}
+[10.352696] (-) TimerEvent: {}
+[10.451768] (polygon_plugins) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[10.452687] (-) TimerEvent: {}
+[10.463076] (polygon_plugins) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[10.463279] (polygon_plugins) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[10.463394] (polygon_plugins) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[10.465122] (polygon_plugins) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[10.552818] (-) TimerEvent: {}
+[10.556606] (polygon_plugins) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[10.561120] (polygon_plugins) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[10.561272] (polygon_plugins) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[10.561439] (polygon_plugins) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[10.563002] (polygon_plugins) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[10.649819] (polygon_plugins) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[10.652902] (-) TimerEvent: {}
+[10.707641] (polygon_plugins) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[10.717460] (polygon_plugins) StdoutLine: {'line': b'-- Found polygon_base: 0.0.0 (/home/ininjame/ros2_projs/ros2_ws/install/polygon_base/share/polygon_base/cmake)\n'}
+[10.718405] (polygon_plugins) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[10.752991] (-) TimerEvent: {}
+[10.853365] (-) TimerEvent: {}
+[10.953894] (-) TimerEvent: {}
+[11.054286] (-) TimerEvent: {}
+[11.154685] (-) TimerEvent: {}
+[11.255516] (-) TimerEvent: {}
+[11.356134] (-) TimerEvent: {}
+[11.456443] (-) TimerEvent: {}
+[11.556762] (-) TimerEvent: {}
+[11.657171] (-) TimerEvent: {}
+[11.757834] (-) TimerEvent: {}
+[11.858991] (-) TimerEvent: {}
+[11.960101] (-) TimerEvent: {}
+[12.060965] (-) TimerEvent: {}
+[12.161631] (-) TimerEvent: {}
+[12.262875] (-) TimerEvent: {}
+[12.363612] (-) TimerEvent: {}
+[12.464035] (-) TimerEvent: {}
+[12.564701] (-) TimerEvent: {}
+[12.665387] (-) TimerEvent: {}
+[12.766087] (-) TimerEvent: {}
+[12.867192] (-) TimerEvent: {}
+[12.968197] (-) TimerEvent: {}
+[13.069297] (-) TimerEvent: {}
+[13.169830] (-) TimerEvent: {}
+[13.270144] (-) TimerEvent: {}
+[13.370835] (-) TimerEvent: {}
+[13.471838] (-) TimerEvent: {}
+[13.572971] (-) TimerEvent: {}
+[13.673654] (-) TimerEvent: {}
+[13.774505] (-) TimerEvent: {}
+[13.875544] (-) TimerEvent: {}
+[13.976849] (-) TimerEvent: {}
+[14.077934] (-) TimerEvent: {}
+[14.179015] (-) TimerEvent: {}
+[14.280062] (-) TimerEvent: {}
+[14.380562] (-) TimerEvent: {}
+[14.481616] (-) TimerEvent: {}
+[14.582899] (-) TimerEvent: {}
+[14.684284] (-) TimerEvent: {}
+[14.784974] (-) TimerEvent: {}
+[14.885874] (-) TimerEvent: {}
+[14.986432] (-) TimerEvent: {}
+[15.086791] (-) TimerEvent: {}
+[15.116803] (polygon_plugins) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/pluginlib/cmake/pluginlib_export_plugin_description_file.cmake:84 (message):\n'}
+[15.117183] (polygon_plugins) StderrLine: {'line': b'  Given plugin description file\n'}
+[15.117265] (polygon_plugins) StderrLine: {'line': b"  '/home/ininjame/ros2_projs/ros2_ws/src/polygon_plugins/plugins.xml' does\n"}
+[15.117323] (polygon_plugins) StderrLine: {'line': b'  not exist\n'}
+[15.117377] (polygon_plugins) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[15.117426] (polygon_plugins) StderrLine: {'line': b'  CMakeLists.txt:13 (pluginlib_export_plugin_description_file)\n'}
+[15.117539] (polygon_plugins) StderrLine: {'line': b'\n'}
+[15.117609] (polygon_plugins) StderrLine: {'line': b'\x1b[0m\n'}
+[15.117660] (polygon_plugins) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[15.117720] (polygon_plugins) StdoutLine: {'line': b'See also "/home/ininjame/ros2_projs/ros2_ws/build/polygon_plugins/CMakeFiles/CMakeOutput.log".\n'}
+[15.122203] (polygon_plugins) CommandEnded: {'returncode': 1}
+[15.148756] (polygon_plugins) JobEnded: {'identifier': 'polygon_plugins', 'rc': 1}
+[15.159237] (-) EventReactorShutdown: {}

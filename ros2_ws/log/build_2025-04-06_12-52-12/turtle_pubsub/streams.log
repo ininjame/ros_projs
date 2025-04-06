@@ -1,0 +1,26 @@
+[0.012s] Invoking command in '/home/ininjame/ros2_projs/ros2_ws/build/turtle_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ininjame/ros2_projs/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/ininjame/ros2_projs/ros2_ws/build/turtle_pubsub -- -j16 -l16
+[0.089s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.098s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/turtle_publisher.cpp.o[0m
+[3.227s] [100%] [32m[1mLinking CXX executable talker[0m
+[3.572s] [100%] Built target talker
+[3.578s] Invoked command in '/home/ininjame/ros2_projs/ros2_ws/build/turtle_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ininjame/ros2_projs/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/ininjame/ros2_projs/ros2_ws/build/turtle_pubsub -- -j16 -l16
+[3.584s] Invoking command in '/home/ininjame/ros2_projs/ros2_ws/build/turtle_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ininjame/ros2_projs/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/ininjame/ros2_projs/ros2_ws/build/turtle_pubsub
+[3.588s] -- Install configuration: ""
+[3.589s] -- Installing: /home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/lib/turtle_pubsub/talker
+[3.590s] -- Set runtime path of "/home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/lib/turtle_pubsub/talker" to ""
+[3.590s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/ament_index/resource_index/package_run_dependencies/turtle_pubsub
+[3.590s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/ament_index/resource_index/parent_prefix_path/turtle_pubsub
+[3.590s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/turtle_pubsub/environment/ament_prefix_path.sh
+[3.590s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/turtle_pubsub/environment/ament_prefix_path.dsv
+[3.590s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/turtle_pubsub/environment/path.sh
+[3.590s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/turtle_pubsub/environment/path.dsv
+[3.590s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/turtle_pubsub/local_setup.bash
+[3.590s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/turtle_pubsub/local_setup.sh
+[3.590s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/turtle_pubsub/local_setup.zsh
+[3.590s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/turtle_pubsub/local_setup.dsv
+[3.591s] -- Installing: /home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/turtle_pubsub/package.dsv
+[3.591s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/ament_index/resource_index/packages/turtle_pubsub
+[3.591s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/turtle_pubsub/cmake/turtle_pubsubConfig.cmake
+[3.591s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/turtle_pubsub/cmake/turtle_pubsubConfig-version.cmake
+[3.591s] -- Up-to-date: /home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/turtle_pubsub/package.xml
+[3.592s] Invoked command in '/home/ininjame/ros2_projs/ros2_ws/build/turtle_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ininjame/ros2_projs/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/ininjame/ros2_projs/ros2_ws/build/turtle_pubsub

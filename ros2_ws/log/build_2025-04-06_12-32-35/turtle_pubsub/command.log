@@ -1,0 +1,4 @@
+Invoking command in '/home/ininjame/ros2_projs/ros2_ws/build/turtle_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub -DCMAKE_INSTALL_PREFIX=/home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub
+Invoked command in '/home/ininjame/ros2_projs/ros2_ws/build/turtle_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ininjame/ros2_projs/ros2_ws/src/turtle_pubsub -DCMAKE_INSTALL_PREFIX=/home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub
+Invoking command in '/home/ininjame/ros2_projs/ros2_ws/build/turtle_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ininjame/ros2_projs/ros2_ws/build/turtle_pubsub -- -j16 -l16
+Invoked command in '/home/ininjame/ros2_projs/ros2_ws/build/turtle_pubsub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ininjame/ros2_projs/ros2_ws/build/turtle_pubsub -- -j16 -l16

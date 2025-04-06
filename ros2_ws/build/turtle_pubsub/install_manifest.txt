@@ -1,0 +1,16 @@
+/home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/lib/turtle_pubsub/talker
+/home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/ament_index/resource_index/package_run_dependencies/turtle_pubsub
+/home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/ament_index/resource_index/parent_prefix_path/turtle_pubsub
+/home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/turtle_pubsub/environment/ament_prefix_path.sh
+/home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/turtle_pubsub/environment/ament_prefix_path.dsv
+/home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/turtle_pubsub/environment/path.sh
+/home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/turtle_pubsub/environment/path.dsv
+/home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/turtle_pubsub/local_setup.bash
+/home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/turtle_pubsub/local_setup.sh
+/home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/turtle_pubsub/local_setup.zsh
+/home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/turtle_pubsub/local_setup.dsv
+/home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/turtle_pubsub/package.dsv
+/home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/ament_index/resource_index/packages/turtle_pubsub
+/home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/turtle_pubsub/cmake/turtle_pubsubConfig.cmake
+/home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/turtle_pubsub/cmake/turtle_pubsubConfig-version.cmake
+/home/ininjame/ros2_projs/ros2_ws/install/turtle_pubsub/share/turtle_pubsub/package.xml

@@ -1,0 +1,57 @@
+[0.012s] Invoking command in '/home/ininjame/ros2_projs/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ininjame/ros2_projs/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake /home/ininjame/ros2_projs/ros2_ws/src/polygon_base -DCMAKE_INSTALL_PREFIX=/home/ininjame/ros2_projs/ros2_ws/install/polygon_base
+[0.254s] -- The C compiler identification is GNU 11.4.0
+[1.287s] -- The CXX compiler identification is GNU 11.4.0
+[1.800s] -- Detecting C compiler ABI info
+[2.269s] -- Detecting C compiler ABI info - done
+[2.273s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.278s] -- Detecting C compile features
+[2.279s] -- Detecting C compile features - done
+[2.282s] -- Detecting CXX compiler ABI info
+[2.459s] -- Detecting CXX compiler ABI info - done
+[2.464s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.464s] -- Detecting CXX compile features
+[2.464s] -- Detecting CXX compile features - done
+[2.476s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.571s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.644s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[5.746s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.807s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.807s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ininjame/ros2_projs/ros2_ws/src/polygon_base/include>
+[5.807s] -- Configured cppcheck exclude dirs and/or files: 
+[5.807s] -- Added test 'lint_cmake' to check CMake code style
+[5.808s] -- Added test 'uncrustify' to check C / C++ code style
+[5.808s] -- Configured uncrustify additional arguments: 
+[5.809s] -- Added test 'xmllint' to check XML markup files
+[5.811s] -- Configuring done
+[5.816s] -- Generating done
+[5.817s] -- Build files have been written to: /home/ininjame/ros2_projs/ros2_ws/build/polygon_base
+[5.822s] Invoked command in '/home/ininjame/ros2_projs/ros2_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ininjame/ros2_projs/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake /home/ininjame/ros2_projs/ros2_ws/src/polygon_base -DCMAKE_INSTALL_PREFIX=/home/ininjame/ros2_projs/ros2_ws/install/polygon_base
+[5.824s] Invoking command in '/home/ininjame/ros2_projs/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ininjame/ros2_projs/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/ininjame/ros2_projs/ros2_ws/build/polygon_base -- -j16 -l16
+[5.849s] [ 50%] [32mBuilding CXX object CMakeFiles/area_node.dir/src/area_node.cpp.o[0m
+[7.868s] [100%] [32m[1mLinking CXX executable area_node[0m
+[8.088s] [100%] Built target area_node
+[8.094s] Invoked command in '/home/ininjame/ros2_projs/ros2_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ininjame/ros2_projs/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/ininjame/ros2_projs/ros2_ws/build/polygon_base -- -j16 -l16
+[8.110s] Invoking command in '/home/ininjame/ros2_projs/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ininjame/ros2_projs/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/ininjame/ros2_projs/ros2_ws/build/polygon_base
+[8.113s] -- Install configuration: ""
+[8.113s] -- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/include
+[8.113s] -- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/include/polygon_base
+[8.114s] -- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/include/polygon_base/regular_polygon.hpp
+[8.114s] -- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/lib/polygon_base/area_node
+[8.115s] -- Set runtime path of "/home/ininjame/ros2_projs/ros2_ws/install/polygon_base/lib/polygon_base/area_node" to ""
+[8.115s] -- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/share/ament_index/resource_index/package_run_dependencies/polygon_base
+[8.115s] -- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/share/ament_index/resource_index/parent_prefix_path/polygon_base
+[8.115s] -- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.sh
+[8.115s] -- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.dsv
+[8.116s] -- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/share/polygon_base/environment/path.sh
+[8.116s] -- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/share/polygon_base/environment/path.dsv
+[8.116s] -- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/share/polygon_base/local_setup.bash
+[8.116s] -- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/share/polygon_base/local_setup.sh
+[8.116s] -- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/share/polygon_base/local_setup.zsh
+[8.116s] -- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/share/polygon_base/local_setup.dsv
+[8.116s] -- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/share/polygon_base/package.dsv
+[8.116s] -- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/share/ament_index/resource_index/packages/polygon_base
+[8.116s] -- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/share/polygon_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.117s] -- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig.cmake
+[8.117s] -- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig-version.cmake
+[8.117s] -- Installing: /home/ininjame/ros2_projs/ros2_ws/install/polygon_base/share/polygon_base/package.xml
+[8.118s] Invoked command in '/home/ininjame/ros2_projs/ros2_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ininjame/ros2_projs/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/ininjame/ros2_projs/ros2_ws/build/polygon_base
